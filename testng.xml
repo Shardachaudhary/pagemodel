@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Addition">
+   <parameter name="n1" value="5"/>  
+   <parameter name="n2" value="4"/> 
+   
+    <classes>   
+       <class name="testAddition.TestAdd">
+       <methods>
+       <include name ="addTwoNum"> </include>
+       </methods>
+       </class>
+     </classes>
+     </test>
+     
+  <test name = "Multiplication">
+   <parameter name="num1" value="2"/>  
+   <parameter name="num2" value="9"/>
+   
+   <classes>
+       <class name="testAddition.TestMul">    
+       <!-- <methods>
+       <exclude name ="multiplyTwoNum"> </exclude>
+       </methods> -->
+       </class>       
+    </classes>
+  </test> 
+  </suite> 

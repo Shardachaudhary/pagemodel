@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-02T13:57:23 IST" name="Default suite" finished-at="2022-10-02T13:57:38 IST" duration-ms="14781">
+    <groups>
+    </groups>
+    <test started-at="2022-10-02T13:57:23 IST" name="Default test" finished-at="2022-10-02T13:57:38 IST" duration-ms="14781">
+      <class name="PageObjectModel.PageObjectModel.ProductCatalog">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PageObjectModel.PageObjectModel.ProductCatalog@54a7079e]" started-at="2022-10-02T13:57:23 IST" name="launchApplication" finished-at="2022-10-02T13:57:38 IST" duration-ms="14537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checking()[pri:0, instance:PageObjectModel.PageObjectModel.ProductCatalog@54a7079e]" started-at="2022-10-02T13:57:38 IST" name="checking" finished-at="2022-10-02T13:57:38 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking -->
+      </class> <!-- PageObjectModel.PageObjectModel.ProductCatalog -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
